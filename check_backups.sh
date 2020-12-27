@@ -41,7 +41,7 @@ do
 	syncdir="${dir}/.syncstatus"
 
 	if [[ ! -d "${syncdir}" ]]; then
-		echo "Syndir -> ${syncdir} does not exist"
+		echo "Syncdir -> ${syncdir} does not exist"
 		status=1
 		continue
 	fi
